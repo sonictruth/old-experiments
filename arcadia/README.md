@@ -1,0 +1,4 @@
+Arcadia Getaways
+================
+
+- Bootstrap mockup

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>&diams; dexTV &diams;</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css?v=3">
+        <meta property="og:image" content="http://sonicpix.ro/dextv/img/logo.png"/>
+        <meta property="og:url" content="http://sonicpix.ro/dextv/"/>
+        <meta property="og:title" content="dexTV Music Television"/>
+        <meta property="og:site_name" content="dexTV"/>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+<div  id="logobox"><img src="img/logo.png"/></div>
+<div id="burtiera"><span id="status"></span> &diams; <span id="artist"></span> &diams; <span id="next">SKIP &gt;&gt;&gt;</span> </div>
+
+
+<iframe id="player" type="text/html" width="100%" height="100%"
+  src="https://www.youtube.com/embed/?enablejsapi=1&controls=0&showinfo=0&rel=0&autohide=1&hd=1&vq=hd720&iv_load_policy=3&origin=http://sonicpix.ro"
+  frameborder="0"></iframe>
+
+<div id="listplaylists" style="display:none;">
+Choose playlists and click <button>continue</button><br/><br/>
+<div class="plcontent"></div>
+</div>
+
+<div id="loadingstatus" style="display:none;text-align:center; width: 300px;">
+<img src="img/loading.gif"/><br>
+<div>Loading...</div>
+</div>
+
+
+
+<div id="msg" style="display:none;">
+Hello,<br/>
+This app will play random handpicked music videos from my youtube library.
+<ul>
+<li>Press F11 for full screen.
+<li>To skip press the skip button on the bottom of the page.
+<li>Volume UP/DOWN Arrow keys(click on the video first if it doesn't work. YT video needs focus).
+<li>Click the title from the bottom of the page to go to YT page.
+<li>You can copy pase URL to share a video.
+</ul>
+<br/>
+Contact: dextor@gmail.com<br/>
+<div style="text-align: center;">
+<button id="pall">PLAY ALL VIDEOS</button><br/>
+<br/>
+or latest videos added:<br/>
+<button id="p50">Latest 50</button>
+<button id="p100">Latest 100</button>
+<button id="p200">Latest 200</button>
+<br/>or your own playlists:<br/>
+<button id="pyou">Your stuff</button>
+</div>
+</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/vendor/jquery.simplemodal.js"></script>
+
+        <script src="js/main.js?v=3"></script>
+        <script src="js/up.js?v=3"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48089577-1', 'sonicpix.ro');
+  ga('send', 'pageview');
+
+</script>
+
+    </body>
+</html>
