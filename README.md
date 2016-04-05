@@ -6,8 +6,8 @@
 
 [Kittenovich](http://sonictruth.github.io/old-experiments/kittenovich/) - Bookmarklet that replaces all images ona website with cat images
 
-[DexTV](http://sonictruth.github.io/old-experiments/video-dome-test/) - Three.js experimet that maps a video or webcam to a 3d dome
+[video-dome](http://sonictruth.github.io/old-experiments/video-dome-test/) - Three.js experimet that maps a video or webcam to a 3d dome
 
-[DexTV](http://sonictruth.github.io/old-experiments/arcadia/) - Bootstrap mookup
+[arcadia](http://sonictruth.github.io/old-experiments/arcadia/) - Bootstrap mookup
 
-[DexTV](http://sonictruth.github.io/old-experiments/giftractie/) - Just some gifs I made with my camera
+[gifTraction](http://sonictruth.github.io/old-experiments/giftractie/) - Just some gifs I made with my camera
