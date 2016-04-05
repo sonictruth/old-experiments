@@ -2,7 +2,7 @@
 
 [DexTV](http://sonictruth.github.io/old-experiments/dextv/) - My TV Station
 
-[Random Bucharest](http://sonictruth.github.io/old-experiments/random-bucharest/#f=lomo&loc=44.424145,26.070123&h=93) - Takes random instagram-like photos from streetview
+[Random Bucharest](http://sonictruth.github.io/old-experiments/random-bucharest/#f=lomo&loc=44.424145,26.070123&h=93) - Takes  instagram-like photos from streetview using random latitude, longitude and heading
 
 [Kittenovich](http://sonictruth.github.io/old-experiments/kittenovich/) - Bookmarklet that replaces all images ona website with cat images
 
